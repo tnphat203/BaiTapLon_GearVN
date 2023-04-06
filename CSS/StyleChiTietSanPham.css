@@ -1,15 +1,131 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-body {
-    width: 1440px;
-}
-.container {
+.container{
     display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    gap: 10px;
+    background-color: #f1f0f1;
+}
+.header-container{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid #cacaca;
+    padding-left: 25px;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.header-control{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-search{
+    display: flex;
+    width: 552px;
+    height: 32px;
+}
+.header-search-bar{
+    display: flex;
+    border-radius: 16px 0 0 16px;
+    text-align: end;
+    width: 522px;
+    align-items: center;
+    border: none;
+}
+.header-search-button{
+    width: 30px;
+    border-radius: 0 16px 16px 0;
+    background-color: #ea1c00;
+    border: none;
+}
+.header-list-control-btn{
+    display: flex;
+    height: 24px;
+    width: 700px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.header-control-btn{
+    display: flex;
+    width: 130px;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    font-size: 11px;
+}
+.header-SoSanPham{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 21px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ea1c00;
+    top: -6px;
+    left: 420px;
+    color: white;
+}
+.header-menu{
+    display: flex;
+    height: 21px;
+    padding-top: 7px;
+}
+.header-menu-btn{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    color: #ea1c00;
+    border-right: 2px solid #ea1c00;
+}
+.menu{
+    display: flex;
+    width: 1368px;
+    height: 52px;
+    gap: 10px;
+    padding-left: 25px;
+}
+.menu-DanhMucSanPham{
+    display: flex;
+    width: 204px;
+    height: 34px;
+    color: white;
+    background-color: #505050;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    height: 31px;
+    width: 283px;
+    border-radius: 5px;
+}
+.menu-btn:hover{
+    color: white;
+    background-color: #ea1c00;
 }
 .footer {
     display: flex;
