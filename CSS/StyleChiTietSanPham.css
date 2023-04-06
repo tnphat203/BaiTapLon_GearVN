@@ -1,5 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .container{
     display: flex;
@@ -8,15 +17,15 @@ body{
     align-items: center;
 }
 .header{
+    background-color: #f1f0f1;
     display: flex;
     flex-direction: column;
     width: 1440px;
-    gap: 10px;
-    background-color: #f1f0f1;
+    height: 190px;
 }
 .header-container{
     display: flex;
-    height: 70px;
+    height: 80px;
     align-items: center;
     border-bottom: 1px solid #cacaca;
     padding-left: 25px;
@@ -40,20 +49,26 @@ body{
 .header-search-bar{
     display: flex;
     border-radius: 16px 0 0 16px;
-    text-align: end;
     width: 522px;
     align-items: center;
     border: none;
+    padding-left: 18px;
+}
+.header-search-bar::placeholder{
+    color: rgb(105, 104, 104);
 }
 .header-search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     border-radius: 0 16px 16px 0;
     background-color: #ea1c00;
     border: none;
 }
+
 .header-list-control-btn{
     display: flex;
-    height: 24px;
     width: 700px;
     gap: 10px;
     align-items: center;
@@ -88,7 +103,7 @@ body{
 .header-menu-btn{
     display: flex;
     gap: 10px;
-    font-size: 14px;
+    font-size: 13px;
     border: none;
     justify-content: center;
     align-items: center;
@@ -99,9 +114,11 @@ body{
 .menu{
     display: flex;
     width: 1368px;
-    height: 52px;
+    height: 30px;
     gap: 10px;
     padding-left: 25px;
+    align-items: center;
+    padding-top: 20px;
 }
 .menu-DanhMucSanPham{
     display: flex;
@@ -116,6 +133,13 @@ body{
 }
 .menu-btn{
     display: flex;
+    height: 31px;
+    width: 283px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.menu-btn-link{
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 11px;
@@ -123,10 +147,11 @@ body{
     width: 283px;
     border-radius: 5px;
 }
-.menu-btn:hover{
+.menu-btn:hover a{ 
     color: white;
     background-color: #ea1c00;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
