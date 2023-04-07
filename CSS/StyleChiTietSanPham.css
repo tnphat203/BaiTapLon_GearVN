@@ -152,6 +152,7 @@ a{
 }
 
 .footer {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     width: 1440px;
@@ -243,6 +244,154 @@ a{
 .content_right {
     font-size: 16px;
 }
+.breadcrumbs {
+    height: 41px;
+    width: 1440px;
+    position: relative;
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.breadcrumbs .span_where {
+    margin-left: 90px;
+    font-size: 13px;
+}
+.breadcrumbs span a {
+    font-size: 13px;
+    color: #428BCA;
+}
+.breadcrumbs .span_GVN {
+    font-size: 14px;
+}
+.breadcrumbs img {
+    font-size: 14px;
+}
+.page_content {
+    margin-left: 108px;
+    margin-right: 41px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1310px;
+    height: 832px;
+}
+.row_left {
+    width: 655px;
+    height: 822px;
+}
+.img_row {
+    margin-bottom: 100px;
+}
+.row_right {
+    width: 655px;
+    height: 822px;
+}
+ .row_right h1 {
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.row_right .span_5 {
+    color: #FF0000;
+    font-weight: 700;
+}
+.row_right a {
+    font-weight: 700;
+    color: #428BCA;
+}
+.row_right  .content_one span {
+    font-style: italic;
+}
+.content_one {
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+}
+.span_6 {
+    font-size: 17px;
+    color: #FF0000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content_two div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content_two .div_1 {
+    font-size: 18px;
+}
+.content_two .div_2 {
+    font-size: 17px;
+}
+.span_7 {
+    color: #FF0000;
+    font-weight: 700;
+}
+.span_8 {
+    font-weight: 700;
+}
+.content_two .div_3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.content_two h2 {
+    font-size: 17px;
+    color: #FF0000;
+    font-weight: 700;
+}
+.content_three .div_2 {
+    padding-top: 30px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.content_four {
+    font-size: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eeeeee;
+}
+.content_two h3 {
+    font-size: 14px;
+    font-style: italic;
+    color: #333333;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.span_9 {
+    color:grey ;
+    font-weight: 700;
+    text-decoration: line-through;
+    font-size: 19px;
+    margin-left: 8px;
+}
+.content_five  .span_8 {
+    font-size: 16px;
+}
+.content_five  .span_7 {
+    font-size: 19px;
+}
+.content_five .btn {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    background-color:#FF0000 ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.content_five button {
+    font-size: 27px;
+    color: white;
+    border: none;
+    background-color: #FF0000;
+    font-weight: 700;
+}
+   
 
 
 
