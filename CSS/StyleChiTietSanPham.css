@@ -15,6 +15,7 @@ a{
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-bottom: 20px;
 }
 .header{
     background-color: #f1f0f1;
@@ -30,7 +31,6 @@ a{
     border-bottom: 1px solid #cacaca;
     padding-left: 25px;
 }
-
 .header-main{
     display: flex;
     flex-direction: column;
@@ -66,7 +66,6 @@ a{
     background-color: #ea1c00;
     border: none;
 }
-
 .header-list-control-btn{
     display: flex;
     width: 700px;
