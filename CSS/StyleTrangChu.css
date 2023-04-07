@@ -162,7 +162,6 @@ a{
     background-color: #f1f0f1;
     align-items: center;
     padding-left: 25px;
-    position: relative;
 }
 .group-product-list{
     display: flex;
@@ -171,8 +170,8 @@ a{
     height: 544;
     background-color: white;
 }
-
 .group-product-one{
+    position: relative;
     align-items: center;
     display: flex;
     height: 34px;
@@ -187,24 +186,35 @@ a{
     font-size: 12px;
     gap: 10px;
 }
-.tamgiac{
-    display: none;
-    height: 34px;
-    width: 34px;
-    border: 17px solid transparent;
-    border-left: 17px solid #ea1c00
+.group-product-link:hover {
+    color: white;
+    background-color: #ea1c00;
 }
 
+.group-product-link::before{
+    content: "";
+    position: absolute;
+    left: 203px;
+    border-left: 17px solid #f1f0f1;
+    border-top: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+}
+.group-product-link:hover::before{
+    border-left: 17px solid #ea1c00;
+}
 .Submenu{
     display: none;
     width: 1155px;
     height: 544px;
     background-color: white;
-    left: 247px;
-    position: absolute;
-    top: 7px;
+    left: 347px;
+    position: fixed;
+    top: 197px;
 }
-
+.group-product-one:hover .Submenu{
+    display: block;
+}
 .product{
     display: flex;
     flex-direction: column;
