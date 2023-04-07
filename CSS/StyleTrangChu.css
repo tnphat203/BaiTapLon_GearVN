@@ -172,6 +172,12 @@ a{
     background-color: white;
 }
 
+.group-product-one{
+    align-items: center;
+    display: flex;
+    height: 34px;
+    width: 237px;
+}
 .group-product-link{
     display: flex;
     height: 34px;
@@ -181,14 +187,6 @@ a{
     font-size: 12px;
     gap: 10px;
 }
-
-.group-product-one{
-    align-items: center;
-    display: flex;
-    height: 34px;
-    width: 237px;
-
-}
 .tamgiac{
     display: none;
     height: 34px;
@@ -196,17 +194,7 @@ a{
     border: 17px solid transparent;
     border-left: 17px solid #ea1c00
 }
-.group-product-link:hover.tamgiac{
-     display: block;
-}
-.group-product-link:hover {
-    background-color: #ea1c00;
-    color: white;
-} 
 
-.group-product-one:hover .Submenu{
-    display: block;
-}
 .Submenu{
     display: none;
     width: 1155px;
@@ -217,11 +205,18 @@ a{
     top: 7px;
 }
 
-
 .product{
     display: flex;
     flex-direction: column;
     width: 1402px;
+}
+.product-gioitheu{
+    display: flex;
+    height: 139px;
+    width: 1382px;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 .product-xakho{
     display: flex;
