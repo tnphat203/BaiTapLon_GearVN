@@ -163,17 +163,19 @@ a{
     margin-bottom: 10px;
 }
 .span {
+    display: inline-block;
     margin-right: 12px;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 700;
 }
 .span_1 {
-    margin-right: 142px;
+    margin-right: 147px;
 }
 .span_2 {
     margin-right: 115px;
 }
 .support {
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -184,6 +186,7 @@ a{
     flex-direction: column;
 }
  .list_support a {
+    font-size: 16px;
     margin-bottom: 10px;
     color: #0655A6;
 }
@@ -208,6 +211,7 @@ a{
     color: #333333;
 }
 .span_4 {
+    font-size: 14px;
     margin-top:5px;
 }
 .p_4 {
@@ -232,8 +236,12 @@ a{
     margin-right: 180px;
 }
 .content_between {
+    font-size: 14px;
     margin-left: 40px;
     margin-right: 25px;
+}
+.content_right {
+    font-size: 16px;
 }
 
 
