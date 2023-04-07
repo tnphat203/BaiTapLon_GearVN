@@ -15,6 +15,7 @@ a{
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-bottom: 20px;
 }
 .header{
     background-color: #f1f0f1;
@@ -161,50 +162,66 @@ a{
     flex-direction: column;
     width: 1402px;
 }
-.product-XaKho{
+.product-xakho{
     display: flex;
     flex-direction: column;
-
+    height: 404px;
 }
-.product-XaKho-head{
+.product-head{
     display: flex;
     align-items: center;
     color: white;
     background-color: #ea1c00;
     height: 44px;
     padding-left: 20px;
-    gap: 1050px;
     font-size: 14px;
+    position: relative;
 }
-.product-XaKho-head:hover a{
+.product-all{
+    position: absolute;
+    color: white;
+    right: 30px;
+}
+.product-head:hover a{
     color: #f3594d;
 }
 .product-list{
     display: flex;
     height: 352px;
-    gap: 16px;
+    gap: 17px;
+    margin-bottom: 30px;
 }
 .product-one{
     display: flex;
     flex-direction: column;
-    width: 267px;
-    
+    border: 1px solid#e2dfdf;
+}
+.product-one:hover{
+    border: 1px solid #f8e36e;
 }
 .product-one-inf{
     display: flex;
-    height: 95px;
+    position: relative;
     flex-direction: column;
+}
+.product-one-inf-name{
+    display: flex;
     font-size: 16px;
     padding: 10px 0 0 10px;
-    gap: 25px;
-    position: relative;
+}
+.product-one-price-discount{
+    display: flex;
+    gap: 120px;
 }
 .product-one-price{
     display: flex;
     gap: 5px;
     flex-direction: column;
+    padding-left: 10px;
+    padding-top: 30px;
 }
 .product-one-price-old{
+    text-decoration: line-through;
     font-size: 14px;
     color: #858282;
 }
@@ -212,11 +229,86 @@ a{
     font-size: 19px;
     color: #ea1c00;
 }
+
 .Discount{
-    position: absolute;
     display: flex;
     height: 51px;
     width: 53px;
+    position: relative;
 }
-
-    
+.Discount-number {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.product-pc{
+    display: flex;
+    flex-direction: column;
+    height: 829px;
+    margin-bottom: 10px;
+}
+.page-number{
+    display: flex;
+    height: 34px;
+    gap: 5px;
+    width: 1402px;
+    padding-left: 25px;
+    justify-content: center;
+}
+.page-number-btn{
+    display: flex;
+    border: 1px solid #e2dfdf;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #72a8d7;
+}
+.page-number-btn:hover{
+    background-color:  #f8e36e;
+}  
+.product-laptop{
+    display: flex;
+    flex-direction: column;
+    height: 2514px;
+}
+.Subcribe{
+    display: flex;
+    height: 46px;
+    width: 1440px;
+    background-color: #dddddd;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 75px;
+    gap: 500px;
+}
+.Subcribe-email{
+    display: flex;
+    width: 435px;
+    height: 30px;
+}
+.Subcribe-email-bar{
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 364px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+.Subcribe-email-bar:hover{
+    box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
+}
+.Subcribe-email-bar::placeholder{
+    color: rgb(105, 104, 104)
+}
+.Subcribe-email-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ea1c00;
+    border: none;
+    width: 72px;
+    font-size: 12px;
+    border-radius: 0 5px 5px 0;
+}
