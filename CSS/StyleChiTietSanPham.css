@@ -150,23 +150,65 @@ a{
     color: white;
     background-color: #ea1c00;
 }
-
-.footer {
-    margin-top: 100px;
+.Subcribe{
     display: flex;
-    justify-content: space-between;
+    height: 46px;
+    width: 1440px;
+    background-color: #dddddd;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 75px;
+    gap: 500px;
+}
+.Subcribe-email{
+    display: flex;
+    width: 435px;
+    height: 30px;
+}
+.Subcribe-email-bar{
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 364px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+.Subcribe-email-bar:hover{
+    box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
+}
+.Subcribe-email-bar::placeholder{
+    color: rgb(105, 104, 104)
+}
+.Subcribe-email-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ea1c00;
+    border: none;
+    width: 72px;
+    font-size: 12px;
+    border-radius: 0 5px 5px 0;
+}
+.footer {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 55px;
     width: 1440px;
     height: 491px;
 }
 .p {
+    margin-bottom: 5px;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
 }
+
 .span {
     display: inline-block;
-    margin-right: 12px;
-    font-size: 14px;
+    margin-right: 50px;
+    font-size: 16px;
     font-weight: 700;
 }
 .span_1 {
@@ -177,8 +219,9 @@ a{
 }
 .support {
     font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 20px;
 }
 .list_support {
     display: flex;
@@ -191,7 +234,9 @@ a{
     margin-bottom: 10px;
     color: #0655A6;
 }
+
 .footer_logo {
+    padding-top: 25px;
     width: 330px;
     height: 114px;
 }
@@ -201,11 +246,17 @@ a{
     font-size: 16px;
     color: #0655A6; 
 }
+.a_1:hover{
+    color: #ea1c00;
+}
 .a_2 {
     display: block;
     margin-top: 10px;
     font-size: 16px;
     color: #0655A6; 
+}
+.a_2:hover{
+    color: #ea1c00;
 }
 .p_3 {
     margin-top: 5px;
@@ -229,6 +280,9 @@ a{
 .a_3 {
     color: #0655A6; 
 }
+.a_3:hover{
+    color: #ea1c00;
+}
 .logo_footer {
     margin-top: 10px;
     margin-left: 100px;
@@ -238,7 +292,6 @@ a{
 }
 .content_between {
     font-size: 14px;
-    margin-left: 40px;
     margin-right: 25px;
 }
 .content_right {
