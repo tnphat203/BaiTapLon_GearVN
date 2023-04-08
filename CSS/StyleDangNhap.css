@@ -150,6 +150,77 @@ a{
     color: white;
     background-color: #ea1c00;
 }
+.main{
+    display: flex;
+    height: 350px;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    height: 278px;
+    width: 1310px;
+    flex-direction: column;
+    font-size: 34px;
+    align-items: center;
+    gap: 20px;
+}
+.Account{
+    display: flex;
+    flex-direction: column;
+    height: 172px;
+    width: 300px;
+}
+.email-password{
+    display: flex;
+    height: 34px;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.email-password-icon{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-right: 1px solid #cacaca;;
+}
+.email-password-bar{
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+    width: 260px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: none;
+}
+.email-password-bar:hover{
+    box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
+}
+.btn-DangNhap{
+    display: flex;
+    height: 34px;
+    width: 95px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+}
+.QuenMK-DangKi{
+    display: flex;
+    height: 20px;
+    width: 300px;
+    font-size: 13px;
+    gap: 5px;
+    margin-top: 10px;
+}
+.QuenMK-DangKi a{
+    color: #64a0d3;
+}
+
 .Subcribe{
     display: flex;
     height: 46px;
