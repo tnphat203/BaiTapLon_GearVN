@@ -159,7 +159,6 @@ a{
     font-size: 16px;
     padding-left: 75px;
     gap: 500px;
-    margin-bottom: 20px;
     margin-top: 10px;
 }
 .Subcribe-email{
@@ -193,12 +192,10 @@ a{
     border-radius: 0 5px 5px 0;
 }
 .footer {
-    margin-left: 20px;
-    margin-top: 20px;
     display: flex;
     gap: 55px;
     width: 1440px;
-    height: 491px;
+    height: 530px;
     background-color:  #f6f6f6;
 }
 .p {
