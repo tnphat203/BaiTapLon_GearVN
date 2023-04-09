@@ -326,10 +326,7 @@ a{
     font-size: 14px;
 }
 .breadcrumbs span a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
-
+    color: #ea1c00
 }
 .page_content {
     margin-left: 108px;
@@ -448,7 +445,7 @@ a{
     align-items: center;
     border-radius: 5px;
 }
-.content_five button {
+.content_five a {
     font-size: 27px;
     color: white;
     border: none;
@@ -456,14 +453,10 @@ a{
     font-weight: 700;
 }
 .content_one a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+    color: #ea1c00
 }
 .content_two .div_2  a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+    color: #ea1c00
 }
 .product {
     width: 1280px;
@@ -476,9 +469,7 @@ a{
 }
 
 .product .div_2 a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+     color: #ea1c00
 }  
 .product .div_2  .a_3 {
     display: inline-block;
@@ -530,13 +521,11 @@ a{
     height: 320px;
     font-size: 16px;
     margin-bottom: 20px;
-    top: ;
 }
 .product_thongso a {
     padding: 0 10px;
     border: 1px solid #d9d9d9 ;
-    padding: 10px 0px;
-    
+    padding: 10px 0px;   
 }
 .product_thongso span {
     padding: 0 10px;
@@ -563,9 +552,7 @@ a{
     color:  #428BCA ;
 }
 .thongso_left a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+    color: #ea1c00;
 }
 
 .thongso_between {
@@ -585,28 +572,26 @@ a{
     
 }
 .thongso_between a:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+    color: #ea1c00;
 }
 .thongso_between span {
     padding-left: 5px;
 }
 .thongso_between .span_10  {
-    border-bottom:1px solid #6a6a6a; 
+    border-bottom:1px solid #d9d9d9; 
     border-bottom: none;
 }
 .thongso_between  .span_11 {
    border-left: none;
 }
 .thongso_between  .span_12 {
-    border-bottom:1px solid #6a6a6a; 
+    border-bottom:1px solid #d9d9d9; 
  }
  .thongso_left  .span_12 {
-    border-bottom:1px solid #6a6a6a; 
+    border-bottom:1px solid #d9d9d9; 
  }
  .thongso_right  .span_12 {
-    border-bottom:1px solid #6a6a6a; 
+    border-bottom:1px solid #d9d9d9; 
  }
 .thongso_right {
     display: flex;
@@ -620,7 +605,7 @@ a{
 .thongso_right span {
     padding-left: 5px;
     border-bottom: none;
-    border-right: 1px solid #6a6a6a;
+    border-right: 1px solid  #d9d9d9;
 }
 .tab_product_chitiet .h_1 {
     font-size: 21px;
@@ -654,9 +639,7 @@ a{
     font-weight: 700;
 }
 .tab_product_chitiet .thongso_2 .a_5:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color:  rgb(0, 0, 255);
+    color: #ea1c00;
 }
 .thongso_3 {
     width: 1243px;
@@ -674,9 +657,7 @@ a{
     font-weight: 700;
 }
 .tab_product_chitiet .thongso_4 .a_5:hover {
-    background-color: #aac3da;
-    opacity: 0.7;
-    color: rgb(0, 0, 255);
+    color: #ea1c00;
 }
 .thongso_4 {
     width: 1243px;
