@@ -206,7 +206,7 @@ a{
 }
 .Submenu{
     display: none;
-    width: 1155px;
+    width: 1130px;
     height: 544px;
     background-color: white;
     left:450px;
@@ -216,6 +216,35 @@ a{
 .group-product-one:hover .Submenu{
     display: block;
 }
+.product-recoment{
+    display: flex;
+    height: 544px;
+    width: 1130px;
+    flex-direction: column;
+    gap: 17px;
+    padding-left: 17px;
+}
+.product-recoment-main{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-left: 3px;
+}
+.product-recoment-banphim-tv{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    justify-content: center;
+    height: 355px;
+}
+.product-recoment-pc-laptop{
+    display: flex;
+    gap: 18px;
+    height: 172px;
+    align-items: center;
+    width: 100%;
+}
+
 .product{
     display: flex;
     flex-direction: column;
