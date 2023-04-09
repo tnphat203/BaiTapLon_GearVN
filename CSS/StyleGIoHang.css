@@ -150,8 +150,133 @@ a{
     color: white;
     background-color: #ea1c00;
 }
-
-
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 515px;
+    width: 1310px;
+    margin-top: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 38px;
+    width: 1280px;
+}
+.columns{
+    display: flex;
+    height: 62px;
+    width: 1278;
+    border: 1px solid #e0dfdf;
+}
+.col{
+    display: flex;
+    height: 62px;
+    width: 259px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-right: 1px solid #e0dfdf;
+}
+.ThanhToan-SanPham{
+    display: flex;
+    width: 1278;
+    border: 1px solid #e0dfdf;
+    border-top: none;
+}
+.SanPham{
+    display: flex;
+    height: 141px;
+    width: 259px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-right: 1px solid #e0dfdf;
+}
+.TenSanPham{
+    color: #428BCA;
+}
+.TenSanPham:hover{
+    color: #ea1c00;
+}
+.SoLuong{
+    display: flex;
+    height: 27px;
+    width: 67px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.TongTien{
+    display: flex;
+    height: 67px;
+    width: 1310px;
+    border: 1px solid #e0dfdf;
+    border-top: none;
+}
+.TongTien-Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 1039px;
+    font-size: 22px;
+}
+.TongTien-Number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 241px;
+    border-left: 1px solid #e0dfdf;
+    font-size: 16px;
+}
+.GhiChu{
+    display: flex;
+    height: 111px;
+    width: 1280px;
+    border: 1px solid #e0dfdf;
+    border-top: none;
+    align-items: center;
+    justify-content: center;
+}
+.GhiChu-bar{
+    display: flex;
+    height: 70px;
+    width: 1175px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.list-btn{
+    display: flex;
+    padding-top: 35px;
+    padding-left: 700px;
+    gap: 10px;
+}
+.btn-thanhtoan{
+    display: flex;
+    height: 46px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ea1c00;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-capnhat{
+    display: flex;
+    height: 46px;
+    width: 91px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ea1c00;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
 .Subcribe{
     display: flex;
     height: 46px;
