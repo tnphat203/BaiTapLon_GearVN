@@ -159,6 +159,7 @@ a{
     font-size: 16px;
     padding-left: 75px;
     gap: 500px;
+    margin-bottom: 20px;
 }
 .Subcribe-email{
     display: flex;
@@ -196,7 +197,8 @@ a{
     display: flex;
     gap: 55px;
     width: 1440px;
-    height: 491px;
+    height: 530px;
+    background-color:  #f6f6f6;
 }
 .p {
     margin-bottom: 5px;
@@ -287,15 +289,19 @@ a{
     margin-top: 10px;
     margin-left: 100px;
 }
+.content_left {
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .content_right {
+    margin-top: 30px;
     margin-right: 180px;
+    font-size: 16px;
 }
 .content_between {
+    margin-top: 30px;
     font-size: 14px;
     margin-right: 25px;
-}
-.content_right {
-    font-size: 16px;
 }
 .breadcrumbs {
     height: 41px;
@@ -508,17 +514,21 @@ a{
     justify-content: center;
 }
 .tab_product_chitiet h1 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 21px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .product_thongso {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1258px;
+    height: 320px;
     font-size: 16px;
+    margin-bottom: 20px;
+    top: ;
 }
 .product_thongso a {
     padding: 0 10px;
@@ -538,9 +548,10 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    position: relative;
+    top: -139px;
     width: 168px;
     height: 40px;
-    
 }
 .thongso_left a {
     padding-left: 5px;
@@ -558,9 +569,10 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    position: relative;
+    top: -139px;
     width: 925px;
     height: 40px;
-    
 }
 .thongso_between a {
     padding-left: 5px;
@@ -596,6 +608,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    position: relative;
+    top: -139px;
     height: 40px;
     width: 165px;
 }
@@ -604,7 +618,78 @@ a{
     border-bottom: none;
     border-right: 1px solid #6a6a6a;
 }
+.tab_product_chitiet .h_1 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.tab_product_chitiet .h_2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.thongso_1  {
+    width: 1214px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.tab_product_chitiet .thongso_1 span {
+    font-size: 17px;
+    font-weight: 700;
+}
+.thongso_2 {
+    height: 78px;
+    width: 1258px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.tab_product_chitiet .thongso_2 .a_5 {
+    color: #4e92ce ;
+    font-weight: 700;
+}
+.tab_product_chitiet .thongso_2 .a_5:hover {
+    background-color: #aac3da;
+    opacity: 0.7;
+}
+.thongso_3 {
+    width: 1243px;
+    height: 103px;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing:0.5px ;
+}
+.tab_product_chitiet .thongso_3 span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.tab_product_chitiet .thongso_4 .a_5 {
+    color: #4e92ce ;
+    font-weight: 700;
+}
+.tab_product_chitiet .thongso_4 .a_5:hover {
+    background-color: #aac3da;
+    opacity: 0.7;
+}
+.thongso_4 {
+    width: 1243px;
+    height: 103px;
+    line-height: 1.5;
+    font-size: 19px;
+    letter-spacing:0.5px ;
+}
 
+.thongso_5{
+    line-height: 1.5;
+    font-size: 19px;
+    letter-spacing:0.7px ;
+}
+.thongso_6{
+    line-height: 1.5;
+    font-size: 19px;
+    letter-spacing:0.6px ;
+}
 
 
 
