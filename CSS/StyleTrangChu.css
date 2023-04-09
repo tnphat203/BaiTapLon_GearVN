@@ -349,6 +349,7 @@ a{
     font-size: 16px;
     padding-left: 75px;
     gap: 500px;
+    margin-bottom: 20px;
 }
 .Subcribe-email{
     display: flex;
@@ -386,7 +387,8 @@ a{
     display: flex;
     gap: 55px;
     width: 1440px;
-    height: 491px;
+    height: 530px;
+    background-color:  #f6f6f6;
 }
 .p {
     margin-bottom: 5px;
@@ -477,15 +479,19 @@ a{
     margin-top: 10px;
     margin-left: 100px;
 }
+.content_left {
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .content_right {
+    margin-top: 30px;
     margin-right: 180px;
+    font-size: 16px;
 }
 .content_between {
+    margin-top: 30px;
     font-size: 14px;
     margin-right: 25px;
-}
-.content_right {
-    font-size: 16px;
 }
 .breadcrumbs {
     height: 41px;
