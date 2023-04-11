@@ -209,9 +209,9 @@ a{
     width: 1130px;
     height: 544px;
     background-color: white;
-    left:450px;
+    left: 265px;
     position: fixed ;
-    top: 197px;
+    top: 89px;
 }
 .group-product-one:hover .Submenu{
     display: block;
@@ -232,7 +232,7 @@ a{
 }
 .product-recoment-banphim-tv{
     display: flex;
-    gap: 7px;
+    gap: 6px;
     flex-direction: column;
     justify-content: center;
     height: 355px;
