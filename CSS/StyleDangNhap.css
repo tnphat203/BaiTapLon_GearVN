@@ -169,8 +169,15 @@ a{
 .Account{
     display: flex;
     flex-direction: column;
-    height: 172px;
+    height: 210px;
     width: 300px;
+}
+.Check-Account{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 .email-password{
     display: flex;
@@ -190,11 +197,11 @@ a{
 .email-password-bar{
     display: flex;
     align-items: center;
-    color: #f0f0f0;
     width: 260px;
     padding-left: 20px;
     font-size: 14px;
     border: none;
+    height: 100%;
 }
 .email-password-bar:hover{
     box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
