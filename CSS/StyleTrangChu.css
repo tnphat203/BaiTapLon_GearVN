@@ -6,15 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 .container{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
     margin-bottom: 20px;
 }
 .header{
@@ -23,6 +17,8 @@ a{
     flex-direction: column;
     width: 1440px;
     height: 190px;
+    width: 100%;
+
 }
 .header-container{
     display: flex;
@@ -73,6 +69,10 @@ a{
     align-items: center;
     position: relative;
 }
+.header-list-control-btn a{
+    text-decoration: none;
+    color: black;
+}
 .header-control-btn{
     display: flex;
     width: 130px;
@@ -99,6 +99,7 @@ a{
     height: 21px;
     padding-top: 7px;
 }
+
 .header-menu-btn{
     display: flex;
     gap: 10px;
@@ -109,6 +110,10 @@ a{
     height: 21px;
     color: #ea1c00;
     border-right: 2px solid #ea1c00;
+}
+.header-menu:hover a{
+    text-decoration: none;
+    color: #ea1c00;
 }
 .menu{
     display: flex;
@@ -137,6 +142,10 @@ a{
     border-radius: 5px;
     border: 1px solid black;
 }
+.menu-btn a{
+    text-decoration: none;
+    color: black;
+}
 .menu-btn-link{
     display: flex;
     justify-content: center;
@@ -146,6 +155,7 @@ a{
     width: 283px;
     border-radius: 5px;
 }
+
 .menu-btn:hover a{ 
     color: white;
     background-color: #ea1c00;
@@ -153,16 +163,21 @@ a{
 .main{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-top: 190px;
+    padding: 0;
 }
+
 .group-product{
     display: flex;
     height: 559px;
     width: 100%;
     background-color: #f1f0f1;
     align-items: center;
-    padding-left: 25px;
     position: relative;
+}
+.group-product a{
+    text-decoration: none;
+    color: black;
 }
 .group-product-list{
     display: flex;
@@ -276,10 +291,13 @@ a{
 }
 .product-all{
     position: absolute;
-    color: white;
     right: 30px;
+    color: white;
 }
+
+
 .product-head:hover a{
+    text-decoration: none;
     color: #f3594d;
 }
 .product-list{
@@ -287,6 +305,10 @@ a{
     height: 352px;
     gap: 17px;
     margin-bottom: 30px;
+}
+.product-list a{
+    text-decoration: none;
+    color: black;
 }
 .product-one{
     display: flex;
@@ -312,10 +334,9 @@ a{
 }
 .product-one-price{
     display: flex;
-    gap: 5px;
     flex-direction: column;
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .product-one-price-old{
     text-decoration: line-through;
@@ -415,6 +436,9 @@ a{
     width: 1440px;
     height: 530px;
     background-color:  #f6f6f6;
+}
+.footer a{
+    text-decoration: none;
 }
 .p {
     margin-bottom: 5px;

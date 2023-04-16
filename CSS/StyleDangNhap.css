@@ -6,10 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -17,12 +14,17 @@ a{
     align-items: center;
     margin-bottom: 20px;
 }
+
 .header{
     background-color: #f1f0f1;
     display: flex;
     flex-direction: column;
     width: 1440px;
     height: 190px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
 }
 .header-container{
     display: flex;
@@ -156,6 +158,11 @@ a{
     width: 1440px;
     align-items: center;
     justify-content: center;
+    margin-top: 190px;
+}
+.main a{
+    text-decoration: none;
+    color: black;
 }
 .main-container{
     display: flex;
@@ -206,7 +213,7 @@ a{
 .email-password-bar:hover{
     box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
 }
-.btn-DangNhap{
+.DangNhap{
     display: flex;
     height: 34px;
     width: 95px;
@@ -215,6 +222,7 @@ a{
     align-items: center;
     border-radius: 3px;
     border: none;
+    font-size: 14px;
 }
 .QuenMK-DangKi{
     display: flex;
@@ -277,6 +285,9 @@ a{
     width: 1440px;
     height: 491px;
     background-color:  #f6f6f6;
+}
+.footer a{
+    text-decoration: none;
 }
 .p {
     margin-bottom: 5px;
