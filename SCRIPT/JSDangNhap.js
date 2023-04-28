@@ -1,4 +1,4 @@
-var btnDangNhap = document.querySelector('.btn-DangNhap');
+var btnDangNhap = document.querySelector('.DangNhap');
 var inpEmail = document.querySelector('.Email');
 var inpPassword = document.querySelector('.Password');
 var CheckAccount = document.querySelector('.Check-Account');
