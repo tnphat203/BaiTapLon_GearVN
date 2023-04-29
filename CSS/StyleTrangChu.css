@@ -6,19 +6,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
 .header{
     background-color: #f1f0f1;
     display: flex;
     flex-direction: column;
     width: 1440px;
-    height: 190px;
-    width: 100%;
-
+    top: 0;
+}
+.header a{
+    text-decoration: none;
+    color: black;
 }
 .header-container{
     display: flex;
@@ -69,10 +66,6 @@ body{
     align-items: center;
     position: relative;
 }
-.header-list-control-btn a{
-    text-decoration: none;
-    color: black;
-}
 .header-control-btn{
     display: flex;
     width: 130px;
@@ -99,8 +92,7 @@ body{
     height: 21px;
     padding-top: 7px;
 }
-
-.header-menu-btn{
+.header-menu-link{
     display: flex;
     gap: 10px;
     font-size: 13px;
@@ -108,21 +100,18 @@ body{
     justify-content: center;
     align-items: center;
     height: 21px;
-    color: #ea1c00;
     border-right: 2px solid #ea1c00;
 }
-.header-menu:hover a{
-    text-decoration: none;
+.header-menu-link b {
     color: #ea1c00;
 }
 .menu{
     display: flex;
     width: 1368px;
-    height: 30px;
+    height: 50px;
     gap: 10px;
     padding-left: 25px;
-    align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .menu-DanhMucSanPham{
     display: flex;
@@ -137,25 +126,20 @@ body{
 }
 .menu-btn{
     display: flex;
-    height: 31px;
+    height: 34px;
     width: 283px;
     border-radius: 5px;
     border: 1px solid black;
-}
-.menu-btn a{
-    text-decoration: none;
-    color: black;
 }
 .menu-btn-link{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 11px;
-    height: 31px;
+    height: 32.2px;
     width: 283px;
     border-radius: 5px;
 }
-
 .menu-btn:hover a{ 
     color: white;
     background-color: #ea1c00;
@@ -164,16 +148,15 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 190px;
-    
 }
 
 .group-product{
     display: flex;
     height: 559px;
-    width: 100%;
+    width: 1440px
     background-color: #f1f0f1;
     align-items: center;
-    position: relative;
+    padding-left: 25px;
 }
 .group-product a{
     text-decoration: none;
@@ -219,18 +202,7 @@ body{
 .group-product-link:hover::before{
     border-left: 17px solid #ea1c00;
 }
-.Submenu{
-    display: none;
-    width: 1130px;
-    height: 544px;
-    background-color: white;
-    left: 265px;
-    position: fixed ;
-    top: 89px;
-}
-.group-product-one:hover .Submenu{
-    display: block;
-}
+
 .product-recoment{
     display: flex;
     height: 544px;
@@ -434,7 +406,7 @@ body{
     display: flex;
     gap: 55px;
     width: 1440px;
-    height: 530px;
+    height: 690px;
     background-color:  #f6f6f6;
 }
 .footer a{
