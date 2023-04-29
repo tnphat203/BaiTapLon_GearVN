@@ -153,7 +153,7 @@ body{
 .group-product{
     display: flex;
     height: 559px;
-    width: 1440px
+    width: 1440px;
     background-color: #f1f0f1;
     align-items: center;
     padding-left: 25px;
