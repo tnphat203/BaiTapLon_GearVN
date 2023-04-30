@@ -221,19 +221,19 @@ a{
     height: 515px;
     width: 1310px;
     margin-top: 220px;
-    padding-left: 100px;
+    padding-left: 35px;
 }
 .title{
     display: flex;
     justify-content: center;
     font-size: 25px;
     height: 38px;
-    width: 1280px;
+    width: 1380px;
 }
 .columns{
     display: flex;
     height: 62px;
-    width: 1278;
+    width: 1380px;
     border: 1px solid #e0dfdf;
 }
 .col{
@@ -247,7 +247,7 @@ a{
 }
 .ThanhToan-SanPham{
     display: flex;
-    width: 1278;
+    width: 1380px;
     border: 1px solid #e0dfdf;
     border-top: none;
 }
@@ -276,7 +276,7 @@ a{
 .TongTien{
     display: flex;
     height: 67px;
-    width: 1310px;
+    width: 1380px;
     border: 1px solid #e0dfdf;
     border-top: none;
 }
@@ -285,7 +285,7 @@ a{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 1039px;
+    width: 1123px;
     font-size: 22px;
 }
 .TongTien-Number{
@@ -293,14 +293,14 @@ a{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 241px;
+    width: 257px;
     border-left: 1px solid #e0dfdf;
     font-size: 16px;
 }
 .GhiChu{
     display: flex;
     height: 111px;
-    width: 1280px;
+    width: 1380px;
     border: 1px solid #e0dfdf;
     border-top: none;
     align-items: center;
@@ -308,10 +308,11 @@ a{
 }
 .GhiChu-bar{
     display: flex;
-    height: 70px;
-    width: 1175px;
+    height: 70%;
+    width: 95%;
     font-weight: 300;
     font-size: 20px;
+    border-color: #428BCA;
 }
 .list-btn{
     display: flex;
