@@ -96,7 +96,7 @@ a {
     height: 21px;
     padding-top: 7px;
 }
-.header-menu-link{
+.header-menu-btn{
     display: flex;
     gap: 10px;
     font-size: 13px;
@@ -106,7 +106,7 @@ a {
     height: 21px;
     border-right: 2px solid #ea1c00;
 }
-.header-menu-link b {
+.header-menu-btn b {
     color: #ea1c00;
 }
 .menu{
