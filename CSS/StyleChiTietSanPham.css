@@ -640,7 +640,9 @@ a {
     padding-left: 5px;
     border-bottom: none
 }
-
+.table .td_5{
+    padding-left: 5px;
+}
 .tab_product_chitiet .h_2 {
     font-size: 19px;
     font-weight: 700;
