@@ -603,106 +603,44 @@ a {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.product_thongso {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.table {
     width: 1258px;
     height: 320px;
     font-size: 16px;
     margin-bottom: 20px;
+
 }
-.product_thongso a {
+.table td {
     padding: 0 10px;
     border: 1px solid #d9d9d9 ;
     padding: 10px 0px;   
 }
-.product_thongso span {
-    padding: 0 10px;
-    border: 1px solid #d9d9d9 ;
-    padding: 10px 0px;
-    border-bottom: none;
+.table td a {
+    color:  #428BCA ;
+}
+.table td a:hover {
+    color: #ea1c00;
+}
+.table .td_1 {
+    padding-left: 5px;
     border-right: none;
-    
+    border-bottom: none;
 }
-.thongso_left {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    position: relative;
-    top: -139px;
-    width: 168px;
-    height: 40px;
+.table .td_2 {
+    padding-left: 5px;
+    border-right: none;
 }
-.thongso_left a {
+.table .td_3 {
     padding-left: 5px;
     border-right: none;
     border-bottom: none;
     background-color: #f7f7f7;
-    color:  #428BCA ;
 }
-.thongso_left a:hover {
-    color: #ea1c00;
+.table .td_4 {
+    padding-left: 5px;
+    border-bottom: none
 }
 
-.thongso_between {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    position: relative;
-    top: -139px;
-    width: 925px;
-    height: 40px;
-}
-.thongso_between a {
-    padding-left: 5px;
-    border-right: none;
-    border-bottom: none;
-    color:  #428BCA ;
-    
-}
-.thongso_between a:hover {
-    color: #ea1c00;
-}
-.thongso_between span {
-    padding-left: 5px;
-}
-.thongso_between .span_10  {
-    border-bottom:1px solid #d9d9d9; 
-    border-bottom: none;
-}
-.thongso_between  .span_11 {
-   border-left: none;
-}
-.thongso_between  .span_12 {
-    border-bottom:1px solid #d9d9d9; 
- }
- .thongso_left  .span_12 {
-    border-bottom:1px solid #d9d9d9; 
- }
- .thongso_right  .span_12 {
-    border-bottom:1px solid #d9d9d9; 
- }
-.thongso_right {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    position: relative;
-    top: -139px;
-    height: 40px;
-    width: 165px;
-}
-.thongso_right span {
-    padding-left: 5px;
-    border-bottom: none;
-    border-right: 1px solid  #d9d9d9;
-}
-.tab_product_chitiet .h_1 {
-    font-size: 21px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 .tab_product_chitiet .h_2 {
     font-size: 19px;
     font-weight: 700;
