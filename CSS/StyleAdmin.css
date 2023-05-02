@@ -18,7 +18,7 @@ header{
     display: flex;
     align-items: center;
     height: 100%;
-    width: 380px;
+    width: 480px;
 }
 .control-btn{
     display: flex;
@@ -33,9 +33,88 @@ header{
 main{
     display: flex;
     width: 1440px;
-    height: 2300px;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    border-bottom: 1px solid#cacaca;
+    gap: 20px;
 }
-.main-left{
+
+.container-SoLuong{
     display: flex;
-    width: 260px;
+    width: 1150px;
+    height: 132px;
+    gap: 30px;
 }
+.box-soLuong{
+    display: flex;
+    height: 100%;
+    width: 258px;
+}
+.box-soLuong-left{
+    display: flex;
+    height: 100%;
+    width: 94px;
+    border-right: 1px solid #FFFFFF;
+    background-color: #F44336;
+    justify-content: center;
+    align-items: center;
+}
+.box-soLuong-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 163px;
+}
+.box-soLuong-right-top{
+    display: flex;
+    height: 66px;
+    width: 163px;
+    background-color: #F44336;
+    border-bottom: 1px solid #FFFFFF;
+    padding-left: 20px;
+    color: white;
+    align-items: center;
+    font-size: 23px;
+}
+.box-soLuong-right-bottom{
+    display: flex;
+    height: 66px;
+    width: 163px;
+    background-color: #F44336;
+    color: white;
+    padding-left: 20px;
+    font-size: 16px;
+    align-items: center;
+    font-weight: bold;
+}
+.icon-soLuong{
+    height: 55px;
+    width: 55px;
+}
+.charts{
+    display: flex;
+    height: 450px;
+    padding-top: 30px;
+    gap: 30px;
+}
+.chart-one{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 650px;
+    font-weight: bold;
+    border: 1px solid #cacaca;
+    align-items: center;
+    font-size: 40px;
+    gap: 20px;
+}
+.container-nhanvien{
+    padding-top: 30px;
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    flex-direction: column;
+}
+
