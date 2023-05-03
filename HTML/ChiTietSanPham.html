@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết sản phẩm</title>
     <link rel="stylesheet" href="/CSS/StyleChiTietSanPham.css">
+    <!-- <link rel="stylesheet" href="/BOOTSTRAP/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://theme.hstatic.net/1000026716/1000440777/14/bootstrap.css?v=36103">
+
+
+    <script src="/SCRIPT/jquery-3.6.4.min.js"></script>
+    <script src="/SCRIPT/bootstrap.min.js"></script>
 </head>
 <body>
     <section class="header">
-            <a href=""><img src="/IMG/IMGTrangChu/Banner.png" alt=""></a>
+            <a href="#"><img src="/IMG/IMGTrangChu/Banner.png" alt=""></a>
             <div class="header-container">
-                <a href=""><img src="/IMG/IMGTrangChu/Logo GearVN.png" alt=""></a>
+                <a href="/HTML/TrangChu.html"><img src="/IMG/IMGTrangChu/Logo GearVN.png" alt=""></a>
                 <div class="header-main">
                     <div class="header-control">
                         <div class="header-search">
@@ -223,24 +229,24 @@
                 </div>
             </div>
         </section>
-        <section class="breadcrumb">
+        <section class="breadcrumbs">
             <div class="breadcrumbs">
                 <span class="span_where">Bạn đang ở đâu:</span>
-                <span><a href="#">Trang Chủ</a></span>
+                <span><a href="/HTML/TrangChu.html">Trang Chủ</a></span>
                 <img src="/IMG/IMGChiTietSanPham/Frame.png" alt="">
-                <span><a href="#">Top PC bán chạy</a></span>
+                <span><a href="#" class="danhmuc">Top PC bán chạy</a></span>
                 <img src="/IMG/IMGChiTietSanPham/Frame.png" alt="">
-                <span class="span_GVN">GVN MINION i1030</span>
+                <span class="span_GVN ten">GVN MINION i1030</span>
             </div>
         </section>
             <section class="page_content">
                 <div class="row">
                     <div class="row_left">
                         <div class="img_main">
-                            <img src="/IMG/IMGChiTietSanPham/slideshow3.webp" alt="" class="img_feature" style="margin-top: 100px;">
+                            <img src="/IMG/IMGChiTietSanPham/slideshow3.webp" alt="" class="img_feature hinh">
                             <div class="control next"></div>
                         </div>
-                        <div class="img_list">
+                        <div class="img_list list-hinh">
                             <div class="active"> <img src="/IMG/IMGChiTietSanPham/slideshow2.webp" alt=""></div>
                             <div><img src="/IMG/IMGChiTietSanPham/slideshow4.webp" alt=""></div>
                             <div><img src="/IMG/IMGChiTietSanPham/slideshow5.webp" alt=""></div>
@@ -253,7 +259,7 @@
                     </div>
                     <div class="row_right">
                         <div class="content_one">
-                            <h1>GVN MINION i1030</h1>
+                            <h1 class="tenSP">GVN MINION i1030</h1>
                             <span class="span_5">🎁Nhận ngay</span>
                             <a href="#">bộ sticker dán GEARVN</a>
                             <span>🎁</span>
@@ -318,11 +324,11 @@
                             <div class="content_five">
                                 <div class="div_2">
                                     <span class="span_8"> Giá cũ:</span>
-                                    <span class="span_9">9,190,000đ</span>
+                                    <span class="span_9 gia">9,190,000đ</span>
                                 </div>
                                 <div class="div_2">
                                     <span class="span_8"> Giá KM:</span>
-                                    <span class="span_7">7,990,000đ</span>
+                                    <span class="span_7 giamGia">7,990,000đ</span>
                                 </div>
                                 <div class="btn">
                                     <a href="http://127.0.0.1:5500/HTML/GioHang.html">Đặt hàng</a>
@@ -331,7 +337,7 @@
                         </div>
                     </div>
             </div>
-            <div class="product">
+            <!-- <div class="product thongTin">
                 <div class="div_2">
                     <div class="a_3">
                         <a href="#" class="a_2">Mô tả sản phẩm </a>
@@ -442,6 +448,12 @@
                     </div>
                 </div>
             </div>
+            -->
+
+            <div class="thongTin">
+            </div>
+
+            
             </section>
             <section class="Subcribe">
                 <b>Mua hàng online với nhiều ưu đãi hơn tại GEARVN</b>
@@ -511,5 +523,6 @@
 </body>
 <script src="/SCRIPT/CheckDangNhap.js"></script>
 <script src="/SCRIPT/DanhMucSanPham.js"></script>
+<script type="module" src="/SCRIPT/JSChiTiet.js"></script>
 <script src="/SCRIPT/SlideShow.js"></script>
 </html>
