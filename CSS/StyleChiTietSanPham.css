@@ -409,12 +409,13 @@ body:hover a{
     justify-content: space-around;
     width: 1310px;
     margin-bottom: 55px;
+    gap: 30px;
 }
 .row_left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 655px;
+    width: 855px;
     height: 700px;
 }
 .img_feature {
@@ -447,7 +448,8 @@ body:hover a{
     margin-bottom: 100px;
 }
 .row_right {
-    width: 655px;
+    padding-top: 30px;
+    width: 855px;
     height: 822px;
 }
  .row_right h1 {
@@ -467,10 +469,10 @@ body:hover a{
     font-style: italic;
 }
 .content_one {
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 15px;
     border-bottom: 1px solid #eeeeee;
-    padding-bottom: 20px;
 }
 .span_6 {
     font-size: 17px;
@@ -561,6 +563,7 @@ body:hover a{
 .content_two .div_2  a:hover {
     color: #ea1c00
 }
+
 /* .product {
     width: 1280px;
     height: 6308px;
