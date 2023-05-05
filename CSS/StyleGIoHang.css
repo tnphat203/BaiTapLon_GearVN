@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+body:hover a{
     text-decoration: none;
 }
 .header{
@@ -16,7 +16,9 @@ a{
     width: 1440px;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
+
 .header a{
     text-decoration: none;
     color: black;
@@ -37,6 +39,9 @@ a{
     display: flex;
     gap: 20px;
     align-items: center;
+}
+.header-main:hover a{
+    color: black;
 }
 .header-search{
     display: flex;
@@ -96,7 +101,7 @@ a{
     height: 21px;
     padding-top: 7px;
 }
-.header-menu-link{
+.header-menu-btn{
     display: flex;
     gap: 10px;
     font-size: 13px;
@@ -106,7 +111,7 @@ a{
     height: 21px;
     border-right: 2px solid #ea1c00;
 }
-.header-menu-link b {
+.header-menu-btn b {
     color: #ea1c00;
 }
 .menu{
@@ -186,7 +191,7 @@ a{
     font-size: 12px;
     gap: 10px;
 }
-.group-product-link:hover {
+.group-product-link:hover{
     color: white;
     background-color: #ea1c00;
 }
