@@ -249,7 +249,7 @@ body{
 .product-xakho{
     display: flex;
     flex-direction: column;
-    height: 404px;
+    height: 450px;
 }
 .product-head{
     display: flex;
@@ -260,6 +260,7 @@ body{
     padding-left: 20px;
     font-size: 14px;
     position: relative;
+    width: 1400px;
 }
 .product-all{
     position: absolute;
@@ -274,8 +275,8 @@ body{
 }
 .product-list{
     display: flex;
-    height: 352px;
-    gap: 17px;
+    height: 370px;
+    gap: 19px;
     margin-bottom: 30px;
 }
 .product-list a{
@@ -286,23 +287,32 @@ body{
     display: flex;
     flex-direction: column;
     border: 1px solid#e2dfdf;
+    width: 265px;
+    position: relative;
+    height: 100%;
+}
+.product-img{
+    width: 260px;
+    height: 242px;
 }
 .product-one:hover{
     border: 1px solid #f8e36e;
 }
 .product-one-inf{
     display: flex;
-    position: relative;
     flex-direction: column;
 }
 .product-one-inf-name{
     display: flex;
     font-size: 16px;
     padding: 10px 0 0 10px;
+    width: 100%;
 }
 .product-one-price-discount{
     display: flex;
-    gap: 120px;
+    position: absolute;
+    top: 300px;
+    gap: 80px;
 }
 .product-one-price{
     display: flex;
@@ -329,12 +339,12 @@ body{
 .Discount-number {
     position: absolute;
     top: 15px;
-    left: 10px;
+    left: 15px;
 }
 .product-pc{
     display: flex;
     flex-direction: column;
-    height: 829px;
+    height: 890px;
     margin-bottom: 10px;
 }
 .page-number{

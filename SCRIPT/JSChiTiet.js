@@ -20,11 +20,22 @@ function loadUI(product){
     var thongTin = document.querySelector('.thongTin');
     var hinhChinh = document.querySelector('.hinh');
     var danhmuc = document.querySelector('.danhmuc');
+
+    const chuyenGia = new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND',
+    }).format(product.gia);
+
+    const chuyenGiaGiam = new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND',
+    }).format(product.gia-product.giamGia/100*product.gia);
+
     danhmuc.textContent = product.danhMuc;
     ten.textContent = product.ten;
     tensp.textContent = product.ten;
-    gia.textContent = product.gia + "₫";
-    giamGia.textContent = product.gia-product.giamGia/100*product.gia + "₫";
+    gia.textContent = chuyenGia;
+    giamGia.textContent = chuyenGiaGiam;
     thongTin.innerHTML = product.thongTin;
 
     // Update images
@@ -34,6 +45,7 @@ function loadUI(product){
         <img src="${image}" alt="">
     </div>
     `;
+
   });
 
   hinh.innerHTML = imagesHTMLs.join('');
