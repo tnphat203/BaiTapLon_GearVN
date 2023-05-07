@@ -223,10 +223,20 @@ body:hover a{
 .main{
     display: flex;
     flex-direction: column;
-    height: 515px;
     width: 1310px;
     margin-top: 220px;
     padding-left: 35px;
+}
+.KhongSP{
+    display: none;
+    height: 100px;
+    width: 1440px;
+    align-items: center;
+    flex-direction: column;
+}
+.CoSP{
+    display: flex;
+    flex-direction: column;
 }
 .title{
     display: flex;
@@ -285,6 +295,7 @@ body:hover a{
     border: 1px solid #e0dfdf;
     border-top: none;
 }
+
 .TongTien-Title{
     display: flex;
     justify-content: center;
@@ -301,6 +312,7 @@ body:hover a{
     width: 257px;
     border-left: 1px solid #e0dfdf;
     font-size: 16px;
+    font-weight: bold;
 }
 .GhiChu{
     display: flex;
@@ -316,7 +328,7 @@ body:hover a{
     height: 70%;
     width: 95%;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 30px;
     border-color: #428BCA;
 }
 .list-btn{
@@ -336,6 +348,11 @@ body:hover a{
     font-size: 18px;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
+}
+.btn-thanhtoan:hover{
+    background-color: gold;
+    color: black;
 }
 .btn-capnhat{
     display: flex;
@@ -348,8 +365,14 @@ body:hover a{
     font-size: 18px;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
+}
+.btn-capnhat:hover{
+    background-color: gold;
+    color: black;
 }
 .Subcribe{
+    margin-top: 30px;
     display: flex;
     height: 46px;
     width: 1440px;

@@ -1,4 +1,5 @@
 import { getOne } from "../API/API.js";
+var dathang = document.querySelector('.btn-dathang');
 function getQueryString(){
     var result = {},
       queryString = location.search.slice(1),
@@ -57,8 +58,17 @@ document.addEventListener('DOMContentLoaded',async function(){
     var id = string.id;
 
     var product = await getOne(id);
-    console.log(product);
-
     loadUI(product);
 });
 
+dathang.addEventListener('click',function(){
+    var cart = JSON.parse(localStorage.getItem('GioHang'));
+    var string = getQueryString();
+    var id = string.id;
+    cart.items.push({
+      id: id,
+      soLuong: 1
+    })
+    localStorage.setItem('GioHang',JSON.stringify(cart));
+    window.location.href = '/HTML/GioHang.html';
+})

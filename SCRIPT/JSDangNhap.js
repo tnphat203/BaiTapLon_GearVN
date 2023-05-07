@@ -14,7 +14,7 @@ btnDangNhap.addEventListener('click',function(){
         if(inpEmail.value==='tnphat203@gmail.com'&&
         inpPassword.value === '11111111'){
             localStorage.setItem('user', 'admin');
-            window.location.href = '/HTML/TrangChu.html';
+            window.location.href = '/index.html';
         }else{
             CheckAccount.textContent = 'Thông tin đăng nhập không hợp lệ';
         }
