@@ -6,11 +6,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header{
     background-color: #f1f0f1;
     display: flex;
     flex-direction: column;
     width: 1440px;
+    position: fixed;
     top: 0;
 }
 .header a{
@@ -112,6 +114,7 @@ body{
     gap: 10px;
     padding-left: 25px;
     padding-top: 15px;
+    align-items: center;
 }
 .menu-DanhMucSanPham{
     display: flex;
@@ -144,18 +147,14 @@ body{
     color: white;
     background-color: #ea1c00;
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    margin-top: 180px;
-}
 
 .group-product{
-    display: flex;
+    display: none;
     height: 559px;
-    width: 1440px;
+    width: 100%;
     background-color: #f1f0f1;
     align-items: center;
+    position: relative;
     padding-left: 25px;
 }
 .group-product a{
@@ -202,176 +201,102 @@ body{
 .group-product-link:hover::before{
     border-left: 17px solid #ea1c00;
 }
-
-.product-recoment{
-    display: flex;
-    height: 544px;
+.Submenu{
+    display: none;
     width: 1130px;
-    flex-direction: column;
-    gap: 17px;
-    padding-left: 17px;
+    height: 544px;
+    background-color: white;
+    left: 247px;
+    position: fixed ;
+    top: 188px;
 }
-.product-recoment-main{
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    padding-left: 3px;
+.group-product-one:hover .Submenu{
+    display: block;
 }
-.product-recoment-banphim-tv{
+.main{
     display: flex;
-    gap: 6px;
-    flex-direction: column;
-    justify-content: center;
-    height: 355px;
-}
-.product-recoment-pc-laptop{
-    display: flex;
-    gap: 18px;
-    height: 172px;
-    align-items: center;
-    width: 100%;
-}
-
-.product{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 350px;
     width: 1440px;
-}
-.product-gioitheu{
-    display: flex;
-    height: 139px;
-    width: 1382px;
-    gap: 20px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-.product-xakho{
-    display: flex;
-    flex-direction: column;
-    height: 450px;
-}
-.product-head{
-    display: flex;
     align-items: center;
-    color: white;
-    background-color: #ea1c00;
-    height: 44px;
-    padding-left: 20px;
-    font-size: 14px;
-    position: relative;
-    width: 1400px;
+    justify-content: center;
+    margin-top: 190px;
 }
-.product-all{
-    position: absolute;
-    right: 30px;
-    color: white;
-}
-
-
-.product-head:hover a{
-    text-decoration: none;
-    color: #f3594d;
-}
-.product-list{
-    display: flex;
-    height: 370px;
-    gap: 19px;
-    margin-bottom: 30px;
-}
-.product-list a{
+.main a{
     text-decoration: none;
     color: black;
 }
-.product-one{
+.main-container{
+    display: flex;
+    height: 278px;
+    width: 1310px;
+    flex-direction: column;
+    font-size: 34px;
+    align-items: center;
+    gap: 20px;
+}
+.Account{
     display: flex;
     flex-direction: column;
-    border: 1px solid#e2dfdf;
-    width: 265px;
-    position: relative;
-    height: 100%;
+    height: 210px;
+    width: 300px;
 }
-.product-img{
-    width: 260px;
-    height: 242px;
-}
-.product-one:hover{
-    border: 1px solid #f8e36e;
-}
-.product-one-inf{
+.Check-Account{
     display: flex;
-    flex-direction: column;
-}
-.product-one-inf-name{
-    display: flex;
-    font-size: 16px;
-    padding: 10px 0 0 10px;
+    height: 20px;
     width: 100%;
-}
-.product-one-price-discount{
-    display: flex;
-    position: absolute;
-    top: 300px;
-    gap: 80px;
-}
-.product-one-price{
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-top: 20px;
-}
-.product-one-price-old{
-    text-decoration: line-through;
     font-size: 14px;
-    color: #858282;
-}
-.product-one-price-new{
-    font-size: 19px;
-    color: #ea1c00;
-}
-
-.Discount{
-    display: flex;
-    height: 51px;
-    width: 53px;
-    position: relative;
-}
-.Discount-number {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-.product-pc{
-    display: flex;
-    flex-direction: column;
-    height: 890px;
     margin-bottom: 10px;
 }
-.page-number{
+.email-password{
     display: flex;
     height: 34px;
-    gap: 5px;
-    width: 1402px;
-    padding-left: 25px;
-    justify-content: center;
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
-.page-number-btn{
+.email-password-icon{
     display: flex;
-    border: 1px solid #e2dfdf;
-    height: 30px;
-    width: 30px;
+    width: 40px;
     justify-content: center;
     align-items: center;
-    color: #72a8d7;
+    background-color: #f0f0f0;
+    border-right: 1px solid #cacaca;;
 }
-.page-number-btn:hover{
-    background-color:  #f8e36e;
-}  
-.product-laptop{
+.email-password-bar{
     display: flex;
-    flex-direction: column;
-    height: 2514px;
+    align-items: center;
+    width: 260px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: none;
+    height: 100%;
 }
+.email-password-bar:hover{
+    box-shadow: -1px -1px 15px -1px rgba(71,170,249,0.75);
+}
+.DangNhap{
+    display: flex;
+    height: 34px;
+    width: 95px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+}
+.QuenMK-DangKi{
+    display: flex;
+    height: 20px;
+    width: 300px;
+    font-size: 13px;
+    gap: 5px;
+    margin-top: 10px;
+}
+.QuenMK-DangKi a{
+    color: #64a0d3;
+}
+
 .Subcribe{
     display: flex;
     height: 46px;
@@ -416,7 +341,7 @@ body{
     display: flex;
     gap: 55px;
     width: 1440px;
-    height: 690px;
+    height: 700px;
     background-color:  #f6f6f6;
 }
 .footer a{
@@ -517,14 +442,15 @@ body{
 }
 .content_right {
     margin-top: 30px;
-    margin-right: 180px;
     font-size: 16px;
+    margin-right: 180px;
 }
 .content_between {
     margin-top: 30px;
     font-size: 14px;
     margin-right: 25px;
 }
+
 .breadcrumbs {
     height: 41px;
     width: 1440px;
@@ -686,6 +612,10 @@ body{
     background-color: #aac3da;
     opacity: 0.7;
 }
+.product {
+    width: 1280px;
+    height: 6308px;
+}
 .product .div_2  a {
     font-weight: 700;
     color: #428BCA;
@@ -705,14 +635,14 @@ body{
     border-bottom: none;
 }
 
-.div_2 .a_2 {
+.product  .div_2 .a_2 {
     display: inline;
     color: #6a6a6a;
     font-size: 12px;
     font-weight: 700;
   
 }
-.div_2  .a_4 {
+.product .div_2  .a_4 {
    margin-right: 20px;
 }
 .tab_product {
