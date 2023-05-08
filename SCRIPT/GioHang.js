@@ -1,10 +1,6 @@
 // var GioHang = {
 //     items: [
-//         {
-//             id: 1,
-//             soLuong: 3
-//         }
-//     ]
+//        
 // };
 // localStorage.setItem('GioHang',JSON.stringify(GioHang));
 import { getOne } from "../API/API.js";
@@ -16,6 +12,7 @@ var xoa = document.querySelector('.btn-xoa');
 var listThanhToan = document.querySelector('.list-thanhtoan');
 var khongsp = document.querySelector('.KhongSP');
 var cosp = document.querySelector('.CoSP');
+var sosp = document.querySelector('.header-SoSanPham');
 document.addEventListener('DOMContentLoaded',async function(){
     if(cart.items.length>0){
         for (const item of cart.items) {
@@ -29,7 +26,7 @@ document.addEventListener('DOMContentLoaded',async function(){
             <div class="SanPham" style="width: 481px;">
                 <a href="/HTML/ChiTietSanPham.html?id=${product.id}" class="TenSanPham"><b>${product.ten}</b></a>
             </div>
-            <div class="SanPham" style="width: 177px;font-size: 14px;">
+            <div class="SanPham sl" style="width: 177px;font-size: 14px;">
                 <input type="number" class="SoLuong" min="1" value=${item.soLuong}>
             </div>
             <div class="SanPham tongtiensp" style="width: 222px;font-size: 14px;">
@@ -55,6 +52,7 @@ document.addEventListener('DOMContentLoaded',async function(){
         khongsp.style.display = 'flex';
         cosp.style.display = 'none';
     }
+    sosp.textContent = cart.items.length;
 });
 listThanhToan.addEventListener('click',async function(e){
     if(e.target.classList.contains('btn-xoa')){
@@ -77,11 +75,26 @@ listThanhToan.addEventListener('click',async function(e){
         khongsp.style.display = 'flex';
         cosp.style.display = 'none';
     }
-
+    if(e.target.classList.contains('SoLuong')){
+        var item = e.target.closest('.ThanhToan-SanPham');
+        var solg = e.target.closest('.SoLuong');
+        var index = Array.from(item.parentElement.children).indexOf(item);
+        cart.items[index].soLuong = solg.value;
+        localStorage.setItem('GioHang',JSON.stringify(cart));
+    }
 });
 
-capnhat.addEventListener('click',function(){
-   
+capnhat.addEventListener('click',async function(){   
+    var tong=0;
+    for (const item of cart.items) {
+        var product = await getOne(item.id);
+        tong = tong + (product.gia-product.giamGia/100*product.gia)*item.soLuong;
+    }
+    tongtien.textContent = new Intl.NumberFormat('vi-VN', {
+        style: 'currency',
+        currency: 'VND',
+    }).format(tong);
+    window.location.href = '/HTML/GioHang.html';
 })
 
 

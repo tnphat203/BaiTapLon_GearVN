@@ -1,5 +1,8 @@
 import { getOne } from "../API/API.js";
 var dathang = document.querySelector('.btn-dathang');
+var cart = JSON.parse(localStorage.getItem('GioHang'));
+var sosp = document.querySelector('.header-SoSanPham');
+
 function getQueryString(){
     var result = {},
       queryString = location.search.slice(1),
@@ -59,6 +62,8 @@ document.addEventListener('DOMContentLoaded',async function(){
 
     var product = await getOne(id);
     loadUI(product);
+
+    sosp.textContent = cart.items.length;
 });
 
 dathang.addEventListener('click',function(){

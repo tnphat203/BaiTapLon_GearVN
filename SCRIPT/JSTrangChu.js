@@ -1,5 +1,6 @@
 
 import { getAll } from "../API/API.js";
+var cart = JSON.parse(localStorage.getItem('GioHang'));
 var listXaKho = document.querySelector('.product-xakho > .product-list');
 var listPC1 = document.querySelector('.product-pc > .ls1 ');
 var listPC2 = document.querySelector('.product-pc > .ls2');
@@ -9,7 +10,7 @@ var listLaptop1 = document.querySelector('.product-lt > .ls1');
 var listLaptop2 = document.querySelector('.product-lt > .ls2');
 var listTV1 = document.querySelector('.product-tv > .ls1');
 var listTV2 = document.querySelector('.product-tv > .ls2');
-
+var sosp = document.querySelector('.header-SoSanPham');
 document.addEventListener('DOMContentLoaded',async function(){
     var listsp = await getAll();
     console.log(listsp);
@@ -265,4 +266,15 @@ document.addEventListener('DOMContentLoaded',async function(){
     </a>`
     }).join('');
     listTV2.insertAdjacentHTML('beforeend',lsTV2);
+
+    if (!localStorage.getItem('GioHang')) {
+        var khoitao = {
+          items: [],
+          soLuong: 0,
+        };
+    
+        localStorage.setItem('GioHang', JSON.stringify(khoitao));
+    }
+
+    sosp.textContent = cart.items.length;
 });
